@@ -202,17 +202,40 @@
 }
 
 .Formulario {
-    text-align: center;
-    font-size: 22px;
-    font-weight: bolder;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Roboto Condensed', sans-serif;               
+  width: auto;
+  height: 200px;
+  padding: 40px;
 }
 
-.Titulo-Contactenos { font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #bf1d1d;
-    font-weight: bolder;
+
+.Multimedia-Mapa {
+  text-align: center;
 }
+
+
+.Titulo-Contactenos {     font-size: 45px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bolder;
+  background-color: #bf1d1d;
+  height: 40px;
+  padding: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.Imagen-Contactenos {
+  text-align: center;
+  width: auto;
+  height: 250px;
+  margin-top: 20px;
+}
+
+
+
 
 .Clientes img {
         background-color: #bf1d1d;
