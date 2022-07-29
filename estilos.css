@@ -49,7 +49,7 @@
                     color: whitesmoke;
                     font-weight: bolder;
                     background-color: #bf1d1d;
-                    height: 40px;
+                    height: 80px;
                     padding: 20px;
   
                     
@@ -64,8 +64,8 @@
                     border-width:5px;
                     border-style: inset;
                     border-color:#bf1d1d;
-                    width: auto;
-                    height: 300px;
+                    width: auto !important; 
+                    height: 350px !important;
                     padding: 50px;
                   
                     
@@ -108,7 +108,7 @@
                 color: whitesmoke;
                 background-color: #bf1d1d;
                 width: auto;
-                height: 200px;
+                height: 250px;
                 margin: auto;
                 padding: 50px;
                 margin-bottom: 50px;             
@@ -152,6 +152,22 @@
     padding: 20px;
 
 }
+
+
+.Titulo-Como { font-family: 'Roboto Condensed', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bolder;
+  background-color: #bf1d1d;
+  height: 80px;
+  padding: 20px;
+
+}
+
+
+
+
 
 .Titulo-Servicios {
   font-family: 'Roboto Condensed', sans-serif;
@@ -200,6 +216,12 @@
     text-align: center;
 
 }
+
+
+.Imagen-Como {
+  text-align: center;
+}
+
 
 .Formulario {
   text-align: center;
@@ -366,6 +388,35 @@
                         "Actividades  Cobertura Contratos"
   
 }
+
+
+
+.carousel-item.active {
+  
+  height: 250px !important;
+  width: 500px !important;
+  position:initial !important;
+  text-align: center !important;
+  margin-left: 700px !important;
+
+}
+
+
+
+.accordion-item {
+  font-size: 30px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+
+.TituloSeccion {
+  font-size: 30px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+
 
 
 
