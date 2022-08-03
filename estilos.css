@@ -138,7 +138,7 @@
     color: whitesmoke;
     font-weight: bolder;
     background-color: #bf1d1d;
-    height: 40px;
+    height: 80px;
     padding: 20px;
 }
 
@@ -148,7 +148,7 @@
     color: whitesmoke;
     font-weight: bolder;
     background-color: #bf1d1d;
-    height: 40px;
+    height: 80px;
     padding: 20px;
 
 }
@@ -176,7 +176,7 @@
   color: whitesmoke;
   font-weight: bolder;
   background-color: #bf1d1d;
-  height: 40px;
+  height: 80px;
   padding: 20px;
 }
 
@@ -228,13 +228,14 @@
   font-size: 35px;
   font-family: 'Roboto Condensed', sans-serif;               
   width: auto;
-  height: 200px;
+  height: 300px;
   padding: 40px;
 }
 
 
 .Multimedia-Mapa {
   text-align: center;
+  
 }
 
 
@@ -243,7 +244,7 @@
   color: whitesmoke;
   font-weight: bolder;
   background-color: #bf1d1d;
-  height: 40px;
+  height: 80px;
   padding: 20px;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -425,6 +426,33 @@
   font-size: 25px;
   
 }
+
+.img-fluid {
+  margin: 0 auto !important;
+}
+
+.text-center {
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+
+.img-thumbnail {
+  text-align: center !important;
+  align-items: center !important;
+  display: inline-block;
+  float: none; /* this is the part that makes it work */
+}
+
+
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
 
 
 
