@@ -1,0 +1,20 @@
+@mixin Estilotexto ($tamaño) {
+    font-size: $tamaño;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Estilotexto-2 {
+    @include Estilotexto (25px);
+}
+
+.Estilotexto-3 {
+    @include Estilotexto (35px);
+}
+
+.Estilotexto-Titulo {
+    @extend .Estilotexto-3;
+    height: 80px;
+    padding: 20px;
+}

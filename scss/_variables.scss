@@ -1,1 +1,9 @@
 $colorprincipal: #bf1d1d;
+
+$listacolores: red , green, white;
+
+@each  $color in $listacolores {
+    .#{$color} {
+        background-color: $color;
+    }
+}

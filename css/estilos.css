@@ -1,22 +1,48 @@
 @charset "UTF-8";
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.white {
+  background-color: white;
+}
+
 .navbar {
   background-color: white !important;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: bolder;
-  font-size: 25px; }
+  font-size: 25px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.white {
+  background-color: white;
+}
 
 .Titulo {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 35px;
   text-align: center;
   color: whitesmoke;
   font-weight: bolder;
   background-color: #bf1d1d;
   height: 80px;
-  padding: 20px; }
+  padding: 20px;
+}
 
 .Informacion {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 37px;
   text-align: center;
   border-width: 5px;
@@ -24,12 +50,14 @@
   border-color: #bf1d1d;
   width: auto !important;
   height: 350px !important;
-  padding: 50px; }
-  .Informacion img {
-    padding: 30px; }
+  padding: 50px;
+}
+.Informacion img {
+  padding: 30px;
+}
 
 .Clientes {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 35px;
   color: #bf1d1d;
   text-shadow: 1px 1px 1px black;
@@ -37,19 +65,22 @@
   font-weight: bolder;
   padding: 70px;
   width: auto;
-  height: 10px; }
+  height: 10px;
+}
 
 .text-center {
   font-size: 30px;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 .Multimedia {
   align-items: center;
   display: flex;
-  text-align: center; }
+  text-align: center;
+}
 
 .Pie-de-pagina {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 30px;
   text-align: center;
   font-weight: bolder;
@@ -60,17 +91,19 @@
   height: 250px;
   margin: auto;
   padding: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 .Descripción {
   grid-column-start: Descripción;
   grid-column-end: Descripción;
   text-align: center;
   font-size: 35px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   width: auto;
   height: 260px;
-  padding: 40px; }
+  padding: 40px;
+}
 
 .Nosotros {
   display: grid;
@@ -80,40 +113,46 @@
   height: 340px;
   padding: 40px;
   margin-top: 80px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "Misión Visión Valores" "Misión  Visión Valores" "Misión  Visión Valores"; }
+  grid-template-areas: "Misión Visión Valores" "Misión  Visión Valores" "Misión  Visión Valores";
+}
 
 .Misión {
   grid-column-start: Misión;
   grid-column-end: Misión;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 .Visión {
   grid-column-start: Visión;
   grid-column-end: Visión;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 .Valores {
   grid-column-start: Valores;
   grid-column-end: Valores;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 .Negrita {
   font-weight: bolder;
   color: #bf1d1d;
-  font-size: 40px; }
+  font-size: 40px;
+}
 
 .Informacion-Servicios {
   text-align: center;
   font-size: 35px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   width: auto;
   height: 200px;
-  padding: 40px; }
+  padding: 40px;
+}
 
 .Servicios {
   display: grid;
@@ -123,49 +162,65 @@
   height: 500px;
   padding: 40px;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "Actividades Cobertura Contratos" "Actividades  Cobertura Contratos" "Actividades  Cobertura Contratos"; }
+  grid-template-areas: "Actividades Cobertura Contratos" "Actividades  Cobertura Contratos" "Actividades  Cobertura Contratos";
+}
 
 .Regreso-pagina-principal {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 30px;
   text-align: center;
   font-weight: bolder;
   width: auto;
   height: 80px;
-  padding: 40px; }
+  padding: 40px;
+}
 
 .Imagen-Como {
-  text-align: center; }
+  text-align: center;
+}
 
 .Informacion-Clientes {
   font-size: 35px;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   padding: 50px;
   font-weight: bolder;
   width: auto;
   height: 100px;
   padding: 40px;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .Imagen-Contactenos {
   text-align: center;
   width: auto;
   height: 250px;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .Formulario {
   text-align: center;
   font-size: 35px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   width: auto;
   height: 300px;
-  padding: 40px; }
+  padding: 40px;
+}
 
 .Multimedia-Mapa {
-  text-align: center; }
+  text-align: center;
+}
+
+.Presentacion {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -189,33 +244,40 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none; }
+  content: "";
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 .Pie-de-pagina {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 30px;
   text-align: center;
   font-weight: bolder;
@@ -226,12 +288,30 @@ table {
   height: 250px;
   margin: auto;
   padding: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 .card {
-  margin: 0 auto;
-  /* Added */
-  float: none;
-  /* Added */
-  margin-bottom: 10px;
-  /* Added */ }
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.Estilotexto-2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.Estilotexto-3, .Estilotexto-Titulo {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.Estilotexto-Titulo {
+  height: 80px;
+  padding: 20px;
+}/*# sourceMappingURL=estilos.css.map */
