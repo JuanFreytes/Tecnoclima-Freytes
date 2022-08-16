@@ -27,17 +27,29 @@
 
 }
 
-.Clientes {     font-family: 'Roboto Condensed', sans-serif;
+.Cabezera {     font-family: 'Roboto Condensed', sans-serif;
         font-size: 35px;
         color: $colorprincipal;
         text-shadow: 1px 1px 1px black;
         text-align: center;
         font-weight: bolder;
         padding: 70px;
-        width: auto;
-        height: 10px;
-
+        height: 200px;
+       
 }
+
+
+.Cabezera-Marca {     font-family: 'Roboto Condensed', sans-serif;
+        font-size: 35px;
+        color: $colorprincipal;
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        font-weight: bolder;
+        padding: 100px;
+        height: 120px;
+}
+
+
 
 .text-center {
         font-size: 30px;
@@ -70,14 +82,15 @@
 
 .Descripción {
 
-        grid-column-start: Descripción;
-        grid-column-end: Descripción;
+
         text-align: center;
-        font-size: 35px;
+        font-size: 28px;
         font-family: 'Roboto Condensed', sans-serif;               
-        width: auto;
-        height: 260px;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: auto;
         padding: 40px;
+        align-items: center;
         
         
       
@@ -212,3 +225,11 @@
         padding-top: 30px;
 }
 
+.Mapa {
+        text-align: center !important;
+}
+
+.three-columns {
+        width: 32%;
+        display: inline-block;
+        }
