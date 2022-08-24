@@ -205,6 +205,11 @@
 .Mapa {
   text-align: center !important; }
 
+.video {
+  max-width: 600px;
+  max-height: 400px;
+  margin: 0 auto; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -480,6 +485,11 @@ table {
 
 .Mapa {
   text-align: center !important; }
+
+.video {
+  max-width: 600px;
+  max-height: 400px;
+  margin: 0 auto; }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .container-fluid img {
