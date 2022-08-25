@@ -131,7 +131,7 @@
 
 .Negrita {
   font-weight: bolder;
-  color: #bf1d1d;
+  color: white;
   font-size: 40px; }
 
 .Informacion-Servicios {
@@ -208,7 +208,32 @@
 .video {
   max-width: 600px;
   max-height: 400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 1%; }
+
+.noticia {
+  margin: 60px auto;
+  padding-left: 25%;
+  padding-right: 25%;
+  background-color: #bf1d1d;
+  color: #fff;
+  padding: 85px;
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.izquierda {
+  float: left;
+  margin-right: 15px;
+  margin-top: -40px; }
+
+.derecha {
+  float: right;
+  margin-left: 15px;
+  margin-top: -40px; }
+
+.paddingbackground {
+  padding-left: 15%;
+  padding-right: 15%; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -412,7 +437,7 @@ table {
 
 .Negrita {
   font-weight: bolder;
-  color: #bf1d1d;
+  color: white;
   font-size: 40px; }
 
 .Informacion-Servicios {
@@ -489,7 +514,32 @@ table {
 .video {
   max-width: 600px;
   max-height: 400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 1%; }
+
+.noticia {
+  margin: 60px auto;
+  padding-left: 25%;
+  padding-right: 25%;
+  background-color: #bf1d1d;
+  color: #fff;
+  padding: 85px;
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.izquierda {
+  float: left;
+  margin-right: 15px;
+  margin-top: -40px; }
+
+.derecha {
+  float: right;
+  margin-left: 15px;
+  margin-top: -40px; }
+
+.paddingbackground {
+  padding-left: 15%;
+  padding-right: 15%; }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .container-fluid img {
