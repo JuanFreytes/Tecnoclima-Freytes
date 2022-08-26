@@ -144,11 +144,14 @@
 
 .Informacion-Servicios {
         text-align: center;
-        font-size: 35px;
+        font-size: 32px;
         font-family: 'Roboto Condensed', sans-serif;               
         width: auto;
-        height: 200px;
+        height: 350px;
         padding: 40px;
+        padding-left: 25%;
+        padding-right: 25%;  
+
 }
 
 .Servicios {
@@ -156,7 +159,7 @@
         grid-gap: 40px;
         font-size: 25px;
         width: auto;
-        height: 500px;
+        height: 700px;
         padding: 40px;
         text-align: center;
         font-family: 'Roboto Condensed', sans-serif;
@@ -165,6 +168,11 @@
                               "Actividades  Cobertura Contratos"
                               "Actividades  Cobertura Contratos"
         
+}
+
+
+.Actividades {
+        margin: -40px;
 }
 
 .Regreso-pagina-principal {  font-family: 'Roboto Condensed', sans-serif;
@@ -269,4 +277,11 @@
 .paddingbackground {
         padding-left: 15%;
         padding-right: 15%;
+        
 }
+
+.Negrita-1 {
+        font-weight: bolder;
+        color: $colorprincipal;
+        font-size: 40px;
+      }

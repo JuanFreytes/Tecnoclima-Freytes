@@ -2,8 +2,26 @@
 
 
 
-@media screen and (min-width:425px) and (max-width:768px) {
+@media screen and (min-width:786px) and (max-width:1024px) { 
 
+    .Informacion-Servicios {
+        height: 430px;
+     }
+
+    .Servicios {
+        height: 835px;
+    }
+}
+
+
+
+// TABLET
+@media screen and (min-width:425px) and (max-width:768px) { 
+
+
+    .body-1 {
+        width: 825px;
+    }
 
     .container-fluid img {
         height: 40px;
@@ -17,6 +35,17 @@
     }
 
 
+    .Descripción  {
+        width: 600px;
+        margin-left: 12%;
+    }
+
+    .noticia {
+        padding: 128px;
+    }
+
+
+
 }
 
 
@@ -25,7 +54,7 @@
 
 
 
-
+// DISPOSITIVO MOVIL L
 @media screen and (min-width:375px) and (max-width:425px) {
 
     .container-fluid img {
@@ -42,6 +71,21 @@
         padding-right: 5%;
         font-size: 25px;
     }
+
+    .body-1 {
+        width: 825px;
+    }
+
+    .Descripción  {
+        width: 600px;
+        margin-left: 12%;
+    }
+
+    .noticia {
+        padding: 150px;
+        font-size: 30px;
+    }    
+
 }
 
 
@@ -62,10 +106,29 @@
         height: 80px;
     }
 
+
+    .body-1 {
+        width: 820px;
+    }
+
+
+    .Descripción  {
+        width: 600px;
+        margin-left: 12%;
+    }
+
+
+    .noticia {
+        padding: 150px;
+        font-size: 30px;
+      
+    }  
+
+
+
+
+
 }
-
-
-
 
 
 
@@ -239,4 +302,3 @@
 
 
 // }
-

@@ -136,23 +136,28 @@
 
 .Informacion-Servicios {
   text-align: center;
-  font-size: 35px;
+  font-size: 32px;
   font-family: 'Roboto Condensed', sans-serif;
   width: auto;
-  height: 200px;
-  padding: 40px; }
+  height: 350px;
+  padding: 40px;
+  padding-left: 25%;
+  padding-right: 25%; }
 
 .Servicios {
   display: grid;
   grid-gap: 40px;
   font-size: 25px;
   width: auto;
-  height: 500px;
+  height: 700px;
   padding: 40px;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "Actividades Cobertura Contratos" "Actividades  Cobertura Contratos" "Actividades  Cobertura Contratos"; }
+
+.Actividades {
+  margin: -40px; }
 
 .Regreso-pagina-principal {
   font-family: 'Roboto Condensed', sans-serif;
@@ -234,6 +239,11 @@
 .paddingbackground {
   padding-left: 15%;
   padding-right: 15%; }
+
+.Negrita-1 {
+  font-weight: bolder;
+  color: #bf1d1d;
+  font-size: 40px; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -442,23 +452,28 @@ table {
 
 .Informacion-Servicios {
   text-align: center;
-  font-size: 35px;
+  font-size: 32px;
   font-family: 'Roboto Condensed', sans-serif;
   width: auto;
-  height: 200px;
-  padding: 40px; }
+  height: 350px;
+  padding: 40px;
+  padding-left: 25%;
+  padding-right: 25%; }
 
 .Servicios {
   display: grid;
   grid-gap: 40px;
   font-size: 25px;
   width: auto;
-  height: 500px;
+  height: 700px;
   padding: 40px;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "Actividades Cobertura Contratos" "Actividades  Cobertura Contratos" "Actividades  Cobertura Contratos"; }
+
+.Actividades {
+  margin: -40px; }
 
 .Regreso-pagina-principal {
   font-family: 'Roboto Condensed', sans-serif;
@@ -541,13 +556,31 @@ table {
   padding-left: 15%;
   padding-right: 15%; }
 
+.Negrita-1 {
+  font-weight: bolder;
+  color: #bf1d1d;
+  font-size: 40px; }
+
+@media screen and (min-width: 786px) and (max-width: 1024px) {
+  .Informacion-Servicios {
+    height: 430px; }
+  .Servicios {
+    height: 835px; } }
+
 @media screen and (min-width: 425px) and (max-width: 768px) {
+  .body-1 {
+    width: 825px; }
   .container-fluid img {
     height: 40px; }
   .Presentacion {
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 25px; } }
+    font-size: 25px; }
+  .Descripción {
+    width: 600px;
+    margin-left: 12%; }
+  .noticia {
+    padding: 128px; } }
 
 @media screen and (min-width: 375px) and (max-width: 425px) {
   .container-fluid img {
@@ -557,7 +590,15 @@ table {
   .Presentacion {
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 25px; } }
+    font-size: 25px; }
+  .body-1 {
+    width: 825px; }
+  .Descripción {
+    width: 600px;
+    margin-left: 12%; }
+  .noticia {
+    padding: 150px;
+    font-size: 30px; } }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
   body {
@@ -567,7 +608,15 @@ table {
     padding-right: 5%;
     font-size: 25px; }
   .container-fluid img {
-    height: 80px; } }
+    height: 80px; }
+  .body-1 {
+    width: 820px; }
+  .Descripción {
+    width: 600px;
+    margin-left: 12%; }
+  .noticia {
+    padding: 150px;
+    font-size: 30px; } }
 
 .grid-item {
   display: flex;
