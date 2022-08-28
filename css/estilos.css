@@ -150,14 +150,16 @@
   font-size: 25px;
   width: auto;
   height: 700px;
-  padding: 40px;
+  gap: 100px;
+  padding-top: 175px;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "Actividades Cobertura Contratos" "Actividades  Cobertura Contratos" "Actividades  Cobertura Contratos"; }
 
 .Actividades {
-  margin: -40px; }
+  margin: -40px;
+  margin-bottom: 10px; }
 
 .Regreso-pagina-principal {
   font-family: 'Roboto Condensed', sans-serif;
@@ -178,7 +180,7 @@
   padding: 50px;
   font-weight: bolder;
   width: auto;
-  height: 100px;
+  height: 150px;
   padding: 40px;
   margin-top: 50px; }
 
@@ -196,9 +198,6 @@
   height: 300px;
   padding: 40px; }
 
-.Multimedia-Mapa {
-  text-align: center; }
-
 .Presentacion {
   text-align: center;
   font-size: 28px;
@@ -208,7 +207,8 @@
   padding-top: 30px; }
 
 .Mapa {
-  text-align: center !important; }
+  text-align: center !important;
+  margin-top: 4%; }
 
 .video {
   max-width: 600px;
@@ -244,6 +244,16 @@
   font-weight: bolder;
   color: #bf1d1d;
   font-size: 40px; }
+
+.tarjetas {
+  display: flex;
+  margin-top: 5%; }
+
+.card-title {
+  font-weight: bolder; }
+
+.imagenes-clientes {
+  height: 300px; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -466,14 +476,16 @@ table {
   font-size: 25px;
   width: auto;
   height: 700px;
-  padding: 40px;
+  gap: 100px;
+  padding-top: 175px;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "Actividades Cobertura Contratos" "Actividades  Cobertura Contratos" "Actividades  Cobertura Contratos"; }
 
 .Actividades {
-  margin: -40px; }
+  margin: -40px;
+  margin-bottom: 10px; }
 
 .Regreso-pagina-principal {
   font-family: 'Roboto Condensed', sans-serif;
@@ -494,7 +506,7 @@ table {
   padding: 50px;
   font-weight: bolder;
   width: auto;
-  height: 100px;
+  height: 150px;
   padding: 40px;
   margin-top: 50px; }
 
@@ -512,9 +524,6 @@ table {
   height: 300px;
   padding: 40px; }
 
-.Multimedia-Mapa {
-  text-align: center; }
-
 .Presentacion {
   text-align: center;
   font-size: 28px;
@@ -524,7 +533,8 @@ table {
   padding-top: 30px; }
 
 .Mapa {
-  text-align: center !important; }
+  text-align: center !important;
+  margin-top: 4%; }
 
 .video {
   max-width: 600px;
@@ -561,6 +571,16 @@ table {
   color: #bf1d1d;
   font-size: 40px; }
 
+.tarjetas {
+  display: flex;
+  margin-top: 5%; }
+
+.card-title {
+  font-weight: bolder; }
+
+.imagenes-clientes {
+  height: 300px; }
+
 @media screen and (min-width: 786px) and (max-width: 1024px) {
   .Informacion-Servicios {
     height: 430px; }
@@ -580,7 +600,11 @@ table {
     width: 600px;
     margin-left: 12%; }
   .noticia {
-    padding: 128px; } }
+    padding: 128px; }
+  .body-2 {
+    width: 960px; }
+  .Informacion-Servicios {
+    height: 500px; } }
 
 @media screen and (min-width: 375px) and (max-width: 425px) {
   .container-fluid img {
@@ -598,7 +622,11 @@ table {
     margin-left: 12%; }
   .noticia {
     padding: 150px;
-    font-size: 30px; } }
+    font-size: 30px; }
+  .body-2 {
+    width: 960px; }
+  .Informacion-Servicios {
+    height: 500px; } }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
   body {
@@ -616,7 +644,16 @@ table {
     margin-left: 12%; }
   .noticia {
     padding: 150px;
-    font-size: 30px; } }
+    font-size: 30px; }
+  .body-2 {
+    width: 960px; }
+  .Informacion-Servicios {
+    height: 500px; }
+  .Servicios {
+    height: 1000px;
+    padding-left: 65px; }
+  .Pie-de-pagina {
+    height: 275px; } }
 
 .grid-item {
   display: flex;
